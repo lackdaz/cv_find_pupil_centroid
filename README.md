@@ -1,7 +1,8 @@
-# find_pupil_centroid
+# OpenCV Technical Interview Question
 
-OpenCV Technical Interview Question  
-Authored by Seth Loh (c) 2020  
+test_name: FindPupilCentroid
+
+Authored by [Seth Loh](https://github.com/lackdaz) (c) 2020  
 Telemedc Pte Ltd
 
 ## Objectives
@@ -22,18 +23,23 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 
 1. Step-by-step intructions on how to run/deploy the program (README/markdown/.txt/)
 1. A written explanation of your image processing strategy
-1. A utility to pause/play the frame to facilitate review.
+1. Controls to pause/play the frame to facilitate review.
+1. Clear annotation of centroid and pupil on frames.
 1. Type-checked, [clean and refactored code](https://refactoring.guru/refactoring/smells). Any improper formatting will be **heavily penalised**.
 
 ### Bonus  
 
-1. Dockerize / package your solution.
+1. Dockerising / packaging of your solution.
 1. A double-frame view to help visualise the image processing layers.
+1. Controls to yield next frame
+1. Useful image annotations
 
 ## Video Samples
 
 ---
 
-1. Download the dataset by running:
+1. Download the dataset by running:  
+`chmod +x get_videos.sh`  
+and  
 `get_videos.sh` (MacOSX, Linux only) or  
 [https://tinyurl.com/tmc-cv2-challenge](https://tinyurl.com/tmc-cv2-challenge)
