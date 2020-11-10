@@ -5,7 +5,7 @@ test_name: FindPupilCentroid
 Authored by [Seth Loh](https://github.com/lackdaz) (c) 2020  
 Telemedc Pte Ltd
 
-## Objectives
+## Objective
 
 ---
 The human eye is one of the most common regions of interest on the human body, and is subject to a large body of literature and application use cases in eye-tracking and gaze estimation - [How does it work?](https://imotions.com/blog/eye-tracking-work/).
@@ -21,25 +21,50 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 
 ### Must include  
 
-1. Step-by-step intructions on how to run/deploy the program (README/markdown/.txt/)
-1. A written explanation of your image processing strategy
+1. Step-by-step intructions on how to install/run/deploy the program (README/markdown/.txt/). Choice of `python3-venv` or `docker`.
+1. A written explanation of your image processing strategy.
 1. Controls to pause/play the frame to facilitate review.
 1. Clear annotation of centroid and pupil on frames.
 1. Type-checked, [clean and refactored code](https://refactoring.guru/refactoring/smells). Any improper formatting will be **heavily penalised**.
 
 ### Bonus  
 
-1. Dockerising / packaging of your solution.
+1. Dockerising the solution.
 1. A double-frame view to help visualise the image processing layers.
-1. Controls to yield next frame
-1. Useful image annotations
+1. Controls to yield next frame.
+1. Useful image annotations.
+1. Argparse for other video filenames
+1. Docstring explanations of code-blocks/functions.
 
-## Video Samples
+## Whitelisted libraries
+
+1. python [standard libraries](https://docs.python.org/3/library/)
+1. `python-opencv`
+1. `numpy`
+1. `imutils`
+
+Contact me or file an issue if you wish to use any other libraries that are out of scope.
+
+## Instructions
 
 ---
 
+1. Fork or clone this library.
 1. Download the dataset by running:  
 `chmod +x get_videos.sh`  
 and  
 `get_videos.sh` (MacOSX, Linux only) or  
 [https://tinyurl.com/tmc-cv2-challenge](https://tinyurl.com/tmc-cv2-challenge)
+1. Create the `test_videos` directory if not created already, make sure the sample videos are located in here.
+1. Provison your python virtual environment.
+1. Create your entrypoint function at root and call it `pupil_detect.py`.
+1. Develop, document and package your solution and contact your recruiter when ready.
+1. You will be expectated to present your solution to a panel of interviewers.
+
+## Asssesment Critera
+
+---
+
+1. Completion of key objectives [60%]
+1. Code quality [20%]
+1. Packaging [20%]
