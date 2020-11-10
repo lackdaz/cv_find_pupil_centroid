@@ -14,7 +14,7 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 
 ### Key Objectives  
 
-1. Measure within 15 fps between frame computations.
+1. Measure within 10 fps between frame computations.
 1. Detect the centroid without jitter (defined as rapid changes in the centroid point between frames)  
 1. Reject false centroids
 1. Maintain a detection rate of 80%
@@ -25,16 +25,22 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 1. A written explanation of your image processing strategy.
 1. Controls to pause/play the frame to facilitate review.
 1. Clear annotation of centroid and pupil on frames.
+1. A frame counting overlay.
 1. Type-checked, [clean and refactored code](https://refactoring.guru/refactoring/smells). Any improper formatting will be **heavily penalised**.
 
 ### Bonus  
 
-1. Dockerising the solution.
 1. A double-frame view to help visualise the image processing layers.
-1. Controls to yield next frame.
 1. Useful image annotations.
 1. Argparse for other video filenames
 1. Docstring explanations of code-blocks/functions.
+1. Controls to yield next frame.
+1. Dockerising the solution.
+
+A sample frame capture could look something like:  
+![sample_frame](https://github.com/lackdaz/find_pupil_centroid/blob/dev/assets/sample_frame.png)
+
+**Note:** This is for illustrative purposes and **is not the model output**.
 
 ## Whitelisted libraries
 
@@ -43,7 +49,7 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 1. `numpy`
 1. `imutils`
 
-Contact me or file an issue if you wish to use any other libraries that are out of scope.
+Contact your interviewer or file an issue if you wish to use any other libraries that are out of scope.
 
 ## Instructions
 
@@ -53,7 +59,8 @@ Contact me or file an issue if you wish to use any other libraries that are out 
 1. Download the dataset by running:  
 `chmod +x get_videos.sh`  
 and  
-`get_videos.sh` (MacOSX, Linux only) or  
+`get_videos.sh`  (MacOSX, Linux only  
+or download from  
 [https://tinyurl.com/tmc-cv2-challenge](https://tinyurl.com/tmc-cv2-challenge)
 1. Create the `test_videos` directory if not created already, make sure the sample videos are located in here.
 1. Provison your python virtual environment.
