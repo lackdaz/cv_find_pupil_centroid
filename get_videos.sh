@@ -1,7 +1,7 @@
 #/bin/bash
 # c. Seth Loh
 
-ir_samples=daniel-ir.zip
+ir_samples=interview-sample.zip
 
 set -e
 
