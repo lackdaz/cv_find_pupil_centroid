@@ -38,7 +38,7 @@ Your goal here is **develop a pupil detection algorithm to detect the centroid o
 1. Dockerising the solution.
 
 A sample frame capture could look something like:  
-![sample_frame](https://github.com/lackdaz/find_pupil_centroid/blob/dev/assets/sample_frame.png)
+![sample_frame](https://github.com/lackdaz/find_pupil_centroid/blob/main/assets/sample_frame.png?raw=true)
 
 **Note:** This is for illustrative purposes and **is not the model output**.
 
