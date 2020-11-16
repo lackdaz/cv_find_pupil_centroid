@@ -62,7 +62,7 @@ and
 `get_videos.sh`  (MacOSX, Linux only  
 or download from  
 [https://tinyurl.com/tmc-cv2-challenge](https://tinyurl.com/tmc-cv2-challenge)
-1. Create the `test_videos` directory if not created already, make sure the sample videos are located in here.
+1. Create the `test_videos` directory if not created already, make sure that a sample video `sample.mkv` is located in here.
 1. Provison your python virtual environment.
 1. Create your entrypoint function at root and call it `pupil_detect.py`.
 1. Develop, document and package your solution and contact your recruiter when ready.
