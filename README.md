@@ -55,7 +55,7 @@ Contact your interviewer or file an issue if you wish to use any other libraries
 
 ---
 
-1. Fork or clone this library.
+1. **clone** this library (**Note:**: do not fork!)
 1. Download the dataset by running:  
 `chmod +x get_videos.sh`  
 and  
